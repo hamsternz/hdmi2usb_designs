@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="C:/repos/hdmi2usb_designs/Minimal_HDMI/tb_top_level_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="numeric_std" />
+            <top_module name="std_logic_1164" />
+            <top_module name="std_logic_arith" />
+            <top_module name="std_logic_signed" />
+            <top_module name="tb_top_level" />
+            <top_module name="textio" />
+            <top_module name="vcomponents" />
+            <top_module name="vital_primitives" />
+            <top_module name="vital_timing" />
+            <top_module name="vpkg" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="5" />
+   <wvobject fp_name="/tb_top_level/gclk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">gclk</obj_property>
+      <obj_property name="ObjectShortName">gclk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_level/tx0_tmds_p" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">tx0_tmds_p[2:0]</obj_property>
+      <obj_property name="ObjectShortName">tx0_tmds_p[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_level/tx0_tmds_clk_p" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">tx0_tmds_clk_p</obj_property>
+      <obj_property name="ObjectShortName">tx0_tmds_clk_p</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_level/tx1_tmds_p" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">tx1_tmds_p[2:0]</obj_property>
+      <obj_property name="ObjectShortName">tx1_tmds_p[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_level/tx1_tmds_clk_p" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">tx1_tmds_clk_p</obj_property>
+      <obj_property name="ObjectShortName">tx1_tmds_clk_p</obj_property>
+   </wvobject>
+</wave_config>

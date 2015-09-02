@@ -58,7 +58,7 @@ architecture Behavioral of top_level is
       port (
          i      : in  std_logic;
          o      : out std_logic;
-         locked : in  std_logic
+         locked : out std_logic
       );
    end component;
    
