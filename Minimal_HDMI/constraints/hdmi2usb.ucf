@@ -1,0 +1,27 @@
+NET "GCLK" IOSTANDARD="LVCMOS33" | period=10.0 ns | LOC="AB13";
+
+NET "tx0_tmds_p<0>"  IOSTANDARD="TMDS_33"  | LOC="W12";
+NET "tx0_tmds_p<1>"  IOSTANDARD="TMDS_33"  | LOC="AA10";
+NET "tx0_tmds_p<2>"  IOSTANDARD="TMDS_33"  | LOC="Y9";
+NET "tx0_tmds_n<0>"  IOSTANDARD="TMDS_33"  | LOC="Y12";
+NET "tx0_tmds_n<1>"  IOSTANDARD="TMDS_33"  | LOC="AB10";
+NET "tx0_tmds_n<2>"  IOSTANDARD="TMDS_33"  | LOC="AB9";
+NET "tx0_tmds_clk_p" IOSTANDARD="TMDS_33"  | LOC="Y11";
+NET "tx0_tmds_clk_n" IOSTANDARD="TMDS_33"  | LOC="AB11";
+NET "tx0_cec"        IOSTANDARD="LVCMOS33" | LOC="W10";
+NET "tx0_scl"        IOSTANDARD="LVCMOS33" | LOC="Y7";
+NET "tx0_sda"        IOSTANDARD="LVCMOS33" | LOC="Y10";
+NET "tx0_hpd"        IOSTANDARD="LVCMOS33" | LOC="AB7";
+
+NET "tx1_tmds_p<0>"  IOSTANDARD="TMDS_33"  | LOC="Y15";
+NET "tx1_tmds_p<1>"  IOSTANDARD="TMDS_33"  | LOC="AA16";
+NET "tx1_tmds_p<2>"  IOSTANDARD="TMDS_33"  | LOC="U14";
+NET "tx1_tmds_n<0>"  IOSTANDARD="TMDS_33"  | LOC="AB15";
+NET "tx1_tmds_n<1>"  IOSTANDARD="TMDS_33"  | LOC="AB16";
+NET "tx1_tmds_n<2>"  IOSTANDARD="TMDS_33"  | LOC="U13";
+NET "tx1_tmds_clk_p" IOSTANDARD="TMDS_33"  | LOC="T12";
+NET "tx1_tmds_clk_n" IOSTANDARD="TMDS_33"  | LOC="U12";
+NET "tx1_cec"        IOSTANDARD="LVCMOS33" | LOC="AB18";
+NET "tx1_scl"        IOSTANDARD="LVCMOS33" | LOC="AB17";
+NET "tx1_sda"        IOSTANDARD="LVCMOS33" | LOC="Y17";
+NET "tx1_hpd"        IOSTANDARD="LVCMOS33" | LOC="AA18";
